@@ -32,7 +32,7 @@ from ebmdatalab import bq
 from ebmdatalab import charts
 from ebmdatalab import maps
 
-# The Lancet Psychiatry published a [recent analysis using openly available NHS prescribing data](https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(20)30530-7/fulltext) to measure the rate of antidepressant prescribing in England during the first wave of the pandemic. Armitage found a 3.9% increase in antidepressant prescribing during April to September 2020, compared to the same period a year earlier.
+# The Lancet Psychiatry published a [recent analysis using openly available NHS prescribing data](<https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(20)30530-7/fulltext>) to measure the rate of antidepressant prescribing in England during the first wave of the pandemic. Armitage found a 3.9% increase in antidepressant prescribing during April to September 2020, compared to the same period a year earlier.
 #
 # The author strongly implies that this change is due to the pandemic: “These data suggest the predictions that mental health would be severely affected by COVID-19 were correct. They also indicate that this increased burden of mental ill-health is being disproportionately managed by pharmacological treatments in primary care...” 
 #
@@ -95,7 +95,3 @@ display(ssri_df) #show dataframe as a table
 
 # + [markdown]
 # As can be seen above, the increase between the six months to September 2020 compared with the same period the previous year is the lowest of the 4 years analysed.
-# -
-
-
-
