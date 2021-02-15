@@ -61,7 +61,7 @@ bnf_code LIKE '0403%' #section 4.3 of legacy BNF - all antidepressants
 """
 
 exportfile = os.path.join("..","data","adp_df.csv") #set path for data cache
-adp_df = bq.cached_read(sql, csv_path=exportfile, use_cache=True) #save dataframte to csv
+adp_df = bq.cached_read(sql, csv_path=exportfile, use_cache=True) #save dataframe to csv
 display(adp_df) #show dataframe as a table
 # -
 
@@ -90,7 +90,7 @@ bnf_code LIKE '040303%' #paragraph 4.3.3 of legacy BNF - SSRIs
 """
 
 exportfile = os.path.join("..","data","ssri_df.csv") #set path for data cache
-ssri_df = bq.cached_read(sql, csv_path=exportfile, use_cache=True) #save dataframte to csv
+ssri_df = bq.cached_read(sql, csv_path=exportfile, use_cache=True) #save dataframe to csv
 display(ssri_df) #show dataframe as a table
 
 # + [markdown]
